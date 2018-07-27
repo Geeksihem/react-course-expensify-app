@@ -13,6 +13,7 @@ editExpense=  (expense) => {
     this.props.removeExpense({ id:  this.props.expense.id });
     this.props.history.push('/');
   }; 
+  
 render(){
   return (
     <div>
